@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirko Thalmann, PhD</title>
+    <link rel="icon" type="image/png" href="mountain-favicon.ico"> <!-- Link to your mountain icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            line-height: 1.4;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header, section, footer {
+            margin-bottom: 20px;
+        }
+        header img {
+            width: 139px;
+            height: 202px;
+            border-radius: 30%;
+        }
+        header div {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+        header div h1 {
+            margin: 0;
+            padding: 0;
+        }
+        .links a {
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .contact-info i {
+            margin-right: 10px;
+        }
+        .reference-list li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="thalmann-mirko.jpg" alt="Mirko Thalmann">
+        <div>
+            <h1>Mirko Thalmann</h1>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i>Munich, Germany</p>
+                <p><i class="fas fa-envelope"></i><span id="email"></span></p>
+            </div>
+            <p class="links">
+                <a href="https://github.com/MirkoTh" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/mirko-thalmann-phd-9261a7136/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://orcid.org/my-orcid?orcid=0009-0007-5611-7629/" title="ORCiD"><i class="fa-brands fa-orcid"></i></a>
+                
+                <a href="cv.pdf" title="CV"><i class="fas fa-file-alt"></i></a>
+            </p>
+        </div>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            <ul class="reference-list">
+                <li>I am a postdoctoral researcher at the <a href="http://hcai-munich.com/">Institute for Human-Centered AI</a> (Helmholtz Munich).</li>
+                <li>Previously, I have worked at the <a href="https://www.kyb.tuebingen.mpg.de/person/113971/250676">Max Planck Institute for Biological Cybernetics</a>, and developed machine-learning pipelines as a senior data scientist in the private sector (banking sector).</li>
+                <li>I completed my PhD in cognitive and mathematical psychology at the <a href="https://www.psychology.uzh.ch/en/areas/nec/allgpsy.html">Cognitive Psychology Unit</a> (University of Zurich).</li>
+                <!-- Add more references as needed -->
+            </ul>
+        </p>
+    </section>
+
+    <section>
+        <h2>Research Interests</h2>
+        <ul class="reference-list">
+            <li>Developing general theories of cognition, focusing on cognitive processes.</li>
+            <li>Understanding how mental representations allow us to interact flexibly with the world.</li>
+            <li>Understanding the relevance of cognitive constructs for everyday behavior.</li>
+            To accomplish this, I combine experimental and individual differences approaches and use computational & statistical models.
+        </ul>
+        <p>
+            
+        </p>
+    </section>
+
+    <section>
+        <h2>Selected Publications</h2>
+        <ul class="reference-list">
+            <li>Thalmann, M. & Schulz E. (2024). <a href="https://osf.io/preprints/psyarxiv/k6ect">The Generalization Artist - Or: How Can We Characterize Human Generalization?</a> Preprint.</li>
+            <li>Thalmann, M., Schäfer, T., Theves, S., Doeller, C. F., & Schulz, E. (2024). <a href="https://www.sciencedirect.com/science/article/pii/S0010028524000410?via%3Dihub">Task Imprinting: Another Mechanism of Representational Change?</a> Cognitive Psychology, 152, 101670.</li>
+            <li>Thalmann, M., Souza, A. S., & Oberauer, K. (2019). <a href="https://psycnet.apa.org/record/2018-18179-001?casa_token=ymU-Y05Omn4AAAAA:6wGcQOgbuX77uPFmdm6ZwQDdJ_Ec8biL336gVPxp8m2B6E5Wp_BzgaxIwmWDj3gGmBbBXjEa-uHC4dVSLDVP">How does chunking help working memory?</a> Journal of Experimental Psychology: Learning, Memory, and Cognition, 45(1), 37–55.</li>
+            <li>Jagadish, A. K., Coda-Forno, J., Thalmann, M., Schulz, E., & Binz, M. (2024). <a href="https://arxiv.org/pdf/2402.01821">Ecologically rational meta-learned inference explains human category learning.</a> Preprint.</li>
+            <li>Wu, S., Thalmann, M., & Schulz, E. (2023). <a href="https://osf.io/preprints/psyarxiv/2a49z">Motif Learning Facilitates Sequence Memorization and Generalization.</a> Preprint.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mirko Thalmann</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var user = "mirkothalmann";
+            var domain = "hotmail.com";
+            var email = user + "@" + domain;
+            document.getElementById("email").innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
+        });
+    </script>
+
+</body>
+</html>
